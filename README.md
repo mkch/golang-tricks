@@ -1,2 +1,2 @@
 
-# [>> 👉 Tricks Here 👈 <<](https://github.com/mkch/golang-tricks/wiki/ChannelTricks)
+# [👉 Tricks Here 👈](https://github.com/mkch/golang-tricks/wiki/ChannelTricks)

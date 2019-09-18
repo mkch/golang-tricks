@@ -1,2 +1,6 @@
+# Welcome to Golang tricks
 
-# [>> 👉 Tricks Here 👈 <<](https://github.com/mkch/golang-tricks/wiki/ChannelTricks)
+## Contents
+
+- [Channel Tricks](https://github.com/mkch/golang-tricks/blob/master/chan.md)
+  

@@ -18,7 +18,7 @@ case <-timer.C:
 timer.Stop()
 ```
 
-[sample code](https://github.com/mkch/golang-tricks/blob/master/examples/channel/SendWithTimeout/main.go)
+[sample](https://github.com/mkch/golang-tricks/blob/master/examples/channel/SendWithTimeout/main.go) | [run](https://play.golang.org/p/f9tq5AtBXxs)
 
 ## Drop on backpressure
 
@@ -35,7 +35,7 @@ default:
 }
 ```
 
-[sample code](https://github.com/mkch/golang-tricks/blob/master/examples/channel/OnBackpressureDrop/main.go)
+[sample](https://github.com/mkch/golang-tricks/blob/master/examples/channel/OnBackpressureDrop/main.go) | [run](https://play.golang.org/p/2Viq2a2hRlT)
 
 ## Keep latest on backpressure
 
@@ -54,4 +54,4 @@ default:
 ch <- value
 ```
 
-[sample code](https://github.com/mkch/golang-tricks/blob/master/examples/channel/OnBackpressureLatest/main.go)
+[sample](https://github.com/mkch/golang-tricks/blob/master/examples/channel/OnBackpressureLatest/main.go) | [run](https://play.golang.org/p/ecRX-x-zC_9)

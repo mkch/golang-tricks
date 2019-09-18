@@ -33,8 +33,8 @@ func main() {
 	var bufSize = 2
 	var buf = C.alloc_buf(C.int(bufSize))
 	defer C.free(unsafe.Pointer(buf))
-	// Wraps the C buf to a go slice without allocation(i.e. C.GoBytes)
-	// CAUTION: this slice can't be used after buf is deallocated(C.free)
+	// Wraps the C buf in a go slice.
+	// CAUTION: this slice can't be used after buf is freed.
 	var sliceOfCBuf = (*[math.MaxUint32]byte)(unsafe.Pointer(buf))[:bufSize]
 
 	sliceOfCBuf[0] = 'a'

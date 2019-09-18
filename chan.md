@@ -1,4 +1,4 @@
-# ChanelTricks
+# Chanel Tricks
 
 Channel is a great feature in go.
 
